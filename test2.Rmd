@@ -1,0 +1,18 @@
+---
+title: "Testing"
+output: html_document
+---
+
+##Header
+
+To **boldly** go...
+
+```{r just}
+sum(1:10)
+summary(1:10)
+```
+
+```{r plot}
+plot(1:10, sample(1:10,10,replace=T), type='b',col='darkblue')
+```
+
