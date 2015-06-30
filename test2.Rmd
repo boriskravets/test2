@@ -16,3 +16,4 @@ summary(1:10)
 plot(1:10, sample(1:10,10,replace=T), type='b',col='darkblue')
 ```
 
+_R chunks_ are not evaluated, as expected...
